@@ -1,0 +1,16 @@
+.container-fluid{
+    height: 100vh;
+}
+.right{
+    background-color:cadetblue;
+    text-align: center;
+}
+.left{
+    background-color: grey;
+    padding: 100px 0 0 0;
+    
+}
+.let{
+    margin:250px;
+    
+}

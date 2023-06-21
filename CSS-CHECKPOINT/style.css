@@ -1,0 +1,64 @@
+body{
+    background-color:teal;
+    margin: 0;
+    padding: 0;
+}
+.navbars{
+    display: inline;
+    float: right;
+    font-family: "Roboto", sans-serif;
+    margin: -38px 0 0 0;
+}
+.navbars a{
+    margin: 25px;
+    padding : 10px;
+    text-decoration: none;
+    color:black;
+}
+img{
+    margin: 30px 0 0 20px;
+}
+.title{
+    margin: -58px 0 0 50px;
+}
+.name{
+    margin: -23px 20px 20px 0;
+}
+.container{
+    margin: 20px;
+}
+.container1{
+    margin: 40px;
+    padding: 50px 0 0 0;
+}
+.images{
+    margin: -500px 20px 0 700px;
+}
+.forms{
+    display: grid;
+    width: 300px;
+    height: 170px;  
+}
+.names{
+    border-radius: 13px;
+    border: none;
+    margin: 10px 0px;
+    padding: 10px;
+}
+.mail{
+    border-radius: 13px;
+    border: none;
+    margin: 10px 0px;
+    padding: 10px;
+}
+.btn{
+    border-radius: 13px;
+    border: none;
+    margin: 10px 0px;
+    padding: 10px;
+    width: 100px;
+    display: flex;
+    justify-content:
+}
+
+

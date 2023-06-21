@@ -1,0 +1,58 @@
+/* div{
+    background-color: blue;
+}
+.list{
+    background-color: aqua;
+}
+#names{
+    background-color: red;
+} */
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('sky.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/* img{
+    height: 40px;
+    width: 40px;
+    margin: 20px;
+    border-radius: 50%;
+    To give a unique margin(top,right,bottom,left)
+    margin: 30px 40px 25px 30px
+} */
+.title{
+    margin: -29px 0 0 30px;
+    color: red;
+}
+.navbar{
+    display: flex;
+    float: right;
+    margin: -20px 24px 0 0;
+}
+li{
+    padding: 10px;
+    color:black;
+    list-style: none;
+}
+#desc{
+    text-align: center;
+    font-size: 85px;
+    color: #fff;
+    margin: 120px 0 0 0;
+}
+button{
+    align-items: center;
+    color: blue;
+    background-color: white;
+    margin: 50px 0 0 540px;
+    height: 50px;
+    width: 130px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+button:hover{
+    background-color: red;
+}
+

@@ -1,0 +1,42 @@
+body{
+    background-color:cornflowerblue;
+    margin:0;
+    padding:0;
+}
+.shopify{
+   text-align: center;
+   font-size:50px;
+   margin: -90px 0 0 -50px;
+}
+.text{
+    text-align: center;
+    font-size: 90px;
+}
+.img{
+    margin: -25px 0 0 0;
+    padding: 50px 20px 20px 500px;
+    width: 80px;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0 0 0;
+}
+.input{
+    height: 50px;
+    margin: 5px 0 0 450px;
+    border-radius: 30px;
+    border: none;
+    width: 500px;
+    padding: 5px 0 0 20px;
+}
+.btn{
+    height: 43px;
+    width: 120px;
+    margin: 20px 0 0 -130px;
+    border-radius: 20px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0 0 0;
+}
