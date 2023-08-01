@@ -235,6 +235,16 @@
 // }
 // checkIfNumber(69)
 
+//function rem(){
+//     const name = prompt('Enter your name')
+//     if(name === 'Chioma'){
+//         alert(`Your name is ${name}`);
+//     }
+//     else[
+//         alert(`Yor name is not in the database`);
+//     ]
+// }
+
 //Example3
 // function checkIfNumber(x){
 //     if( x <= 30 ){
@@ -270,23 +280,86 @@
 // }  
 
 //Switch Operator
-function decodeColor(code){
-    switch(code){
-    case 1:
-        console.log('Red');
-        break;
-    case 2:
-        console.log('Green');
-        break;
-    case 3:
-            console.log('Blue');
-        break;
+// function decodeColor(code){
+//     switch(code){
+//     case 1:
+//         console.log('Red');
+//         break;
+//     case 2:
+//         console.log('Green');
+//         break;
+//     case 3:
+//             console.log('Blue');
+//         break;
     
-    default:
-        console.log('Unknown code');
-    }
-}
-decodeColor(4)
+//     default:
+//         console.log('Unknown code');
+//     }
+// }
+// decodeColor(4)
 
 
+//While loop
 
+// var numbers = [19, 65, 1, 2, 6, 1, 9, 2, 1];
+// var sum = 0;
+// var i = 0;
+// while(i < numbers.length) {
+//     sum += numbers[i];
+//     i += 1;
+// }
+// console.log('The loop was executed '+ i +' times');
+//console.log(sum); //To print out the value of the sum
+
+//do while loop
+// let numbers = [19, 65, 1, 2, 6, 1, 9, 9, 2, 1];
+// let sum = 0;
+// let i = 0;
+// do{
+//     sum+= numbers[i];
+//     i += 1;
+// }
+// while( i < numbers.length)
+// console.log('The loop was executed '+ i +' times');
+// console.log(sum); 
+
+//for in loop
+// let numbers = [19, 65, 1, 2, 6, 1, 9, 9, 2, 1];
+// let sum = 0;
+
+// //Using the for... in loop
+// for (let i in numbers){
+//     sum += numbers[i];
+// }
+// console.log(sum);
+
+//for loop
+
+//function multiplicationTable(number) {  //The values in this bracket is a parameter
+ //   for (let i = 1; i <= 12; i++) {    //initialization area is the 'let i =1'; while for the i <= 12 is for the condition
+ //       let result = number * i;
+ //       console.log(`${number} x ${i} = ${result}`);
+ //   }
+//}
+//multiplicationTable(2); //the value in the bracket is an argument
+
+//Break and continue
+// let numbers = [19, 65, 1, 2, 6, 1, 9, 9, 2, 1]
+// let sum = 0;
+// for (let i in numbers) {
+//     if (i % 2 == 0) continue;
+//     sum += numbers[i]
+// }
+// console.log(sum);
+
+//Break
+// let numbers = [19, 65, 1, 2, 6, 1, 9, 9, 2, 1];
+// let sum = 0;
+
+// for (let i in numbers){
+//     sum += numbers[i];
+//     if (sum >= 70){
+//         break;
+//     }
+// }
+// console.log(sum);
